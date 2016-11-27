@@ -1,5 +1,15 @@
-.my-map { margin: 0 auto; width: 3000px; height: 100px; }
-.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
-.my-map .icon-cir { height: 31px; width: 28px; }
-.my-map .icon-cir-red { background-position: -11px -5px; }
-.amap-container{height: 100%;}
+.mn-map {
+  height:300px;
+}
+.mn-map .icon {
+  background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
+}
+.mn-map .icon-cir {
+  height: 31px; width: 28px;
+}
+.mn-map .icon-cir-red {
+  background-position: -11px -5px;
+}
+.amap-container{
+  height: 100%;
+}
