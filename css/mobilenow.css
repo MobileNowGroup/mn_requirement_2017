@@ -1,5 +1,5 @@
 .mn-map {
-  height:300px;
+  height: 300px !important;
 }
 .mn-map .icon {
   background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
@@ -12,4 +12,11 @@
 }
 .amap-container{
   height: 100%;
+}
+.btn .btn-mn-black {
+  color: white
+}
+
+.btn .btn-mn-black:hover {
+  color: black
 }
