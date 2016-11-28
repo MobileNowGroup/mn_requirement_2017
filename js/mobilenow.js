@@ -40,7 +40,7 @@
         infoWindow.open(map, e.lnglat);
     }
 
-    map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level, scrollWheel: false});
+    map = new AMap.Map("mapContainer", {center: new AMap.LngLat(center.lng, center.lat), level: level, scrollWheel: false, lang:'en'});
 
     loadFeatures();
 
