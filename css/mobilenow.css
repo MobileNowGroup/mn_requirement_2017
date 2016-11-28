@@ -1,22 +1,53 @@
+.white {
+  color: #fefefe;
+}
+
 .mn-map {
-  height: 300px !important;
+    height: 300px !important;
 }
+
 .mn-map .icon {
-  background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
+    background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat;
 }
+
 .mn-map .icon-cir {
-  height: 31px; width: 28px;
+    height: 31px;
+    width: 28px;
 }
+
 .mn-map .icon-cir-red {
-  background-position: -11px -5px;
+    background-position: -11px -5px;
 }
-.amap-container{
-  height: 100%;
+
+.amap-container {
+    height: 100%;
 }
+
 .btn .btn-mn-black {
-  color: white
+    color: white
 }
 
 .btn .btn-mn-black:hover {
-  color: black
+    color: black
+}
+
+.about-us h4{
+  text-align: center;
+}
+
+.about-us i {
+  color: #580053;
+  opacity: .6;
+  display: inherit;
+  text-align: center;
+}
+
+.concat a {
+  color: #fefefe;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    width: 200px;
+  }
 }
