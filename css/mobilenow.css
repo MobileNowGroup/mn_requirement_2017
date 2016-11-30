@@ -51,9 +51,3 @@
     width: 200px;
   }
 }
-
-@media (max-width: 760px) {
-  #sendmail-btn {
-    display: none;
-  }
-}
